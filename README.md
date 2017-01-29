@@ -8,4 +8,4 @@ Positive definite kernels, RKHS, Aronszajin theorem
 Kernel trick, representer theorem, kernel ridge regression
 
 ### Class 3 (slides 96-156)
-Supervised classification, Kernel logistic regression, Large margin classifiers, SVM
+Supervised classification, Kernel logistic regression, Large margin classifiers, Learning theory, Risk convexification, SVM
