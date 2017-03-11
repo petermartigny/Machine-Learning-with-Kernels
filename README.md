@@ -9,3 +9,17 @@ Kernel trick, representer theorem, kernel ridge regression
 
 ### Class 3 (slides 96-156)
 Supervised classification, Kernel logistic regression, Large margin classifiers, Learning theory, Risk convexification, SVM
+
+### Class 4 (slides 159-194, 532-550)
+Unsupervised analysis, kernel PCA, kernel CCA, kernel K-means, large-scale optimization
+
+### Class 5 (slides 195-269)
+Green, Mercer, Herglotz and Bochner kernels
+
+### Class 6 (slides 290-371)
+Kernels from generative models, string kernels
+
+### Class 7 (slides 393-491)
+
+### Class 8 (slides 491-)
+Large-scale kernel machines, deep kernel learning (Convolutional Kernel Network)
