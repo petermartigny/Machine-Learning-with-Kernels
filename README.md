@@ -20,6 +20,7 @@ Green, Mercer, Herglotz and Bochner kernels
 Kernels from generative models, string kernels
 
 ### Class 7 (slides 393-491)
+Graph kernels, kernels on graphs
 
 ### Class 8 (slides 491-)
 Large-scale kernel machines, deep kernel learning (Convolutional Kernel Network)
