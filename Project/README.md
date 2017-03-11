@@ -1,7 +1,7 @@
 # Image Classification with Kernels
 #### Team members: Peter Martigny, Sophia Lazraq, Olivier Chancé
 
-The goal of this project is to classify images from (CIFAR dataset)[https://www.cs.toronto.edu/~kriz/cifar.html], which consist of 10 different classes: airplane, dog, cat, car, horse, frog, truck, bird, deer, ship.
+The goal of this project is to classify images from [CIFAR dataset](https://www.cs.toronto.edu/~kriz/cifar.html), which consists of 10 different classes: airplane, dog, cat, car, horse, frog, truck, bird, deer, ship.
 
 The constraint of this project is: DO IT YOURSELF! which means no access to machine learning libraries (keras, sklearn, opencv...)
 
