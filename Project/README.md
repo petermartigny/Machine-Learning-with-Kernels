@@ -1,26 +1,25 @@
-# Machine Learning with Kernels
-[Machine Learning with Kernels](http://members.cbio.mines-paristech.fr/~jvert/svn/kernelcourse/course/2017mva/index.html), course @ ENS Cachan by [Jean-Philippe Vert](http://members.cbio.mines-paristech.fr/~jvert/) and [Julien Mairal](https://lear.inrialpes.fr/people/mairal/)
+# Image Classification with Kernels
+#### Team members: Peter Martigny, Sophia Lazraq, Olivier Chancé
 
-### Class 1 (slides 1-45)
-Positive definite kernels, RKHS, Aronszajin theorem
+The goal of this project is to classify images from CIFAR dataset, which consist of 10 different classes: airplane, dog, cat, car, horse, frog, truck, bird, deer, ship.
 
-### Class 2 (slides 46-95)
-Kernel trick, representer theorem, kernel ridge regression
+The constraint of this project is: DO IT YOURSELF! which means no access to machine learning libraries (keras, sklearn, opencv...)
 
-### Class 3 (slides 96-156)
-Supervised classification, Kernel logistic regression, Large margin classifiers, Learning theory, Risk convexification, SVM
+## Methodology
 
-### Class 4 (slides 159-194, 532-550)
-Unsupervised analysis, kernel PCA, kernel CCA, kernel K-means, large-scale optimization
+#### Fetures creation with SIFT
+Build a SIFT features extractor
 
-### Class 5 (slides 195-269)
-Green, Mercer, Herglotz and Bochner kernels
+#### Chi2 Kernel
+Build a Chi2 Kernel to embed the features
 
-### Class 6 (slides 290-371)
-Kernels from generative models, string kernels
+#### SVM
+Build a Support Vector Machine (SVM) to classify images, with a one-versus-all method to go multi-class
 
-### Class 7 (slides 393-491)
-Graph kernels, kernels on graphs
+### Additional Trick: Data Augmentation
+Flip the images to double the size of the training set
 
-### Class 8 (slides 491-)
-Large-scale kernel machines, deep kernel learning (Convolutional Kernel Network)
+## Results
+The metrics of concern is the accuracy
+On the prvate leaderaboard, our model without data augmentation produces an accuracy of 63.5%.
+With data augmentation, the model lead to an accuracy of 65.5%
